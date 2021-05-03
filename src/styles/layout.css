@@ -1,0 +1,9 @@
+.responsive-container {
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 90%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

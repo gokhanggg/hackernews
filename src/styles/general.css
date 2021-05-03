@@ -1,0 +1,41 @@
+.primary-button {
+  background: #424244;
+  color: #faffff;
+  padding: 6px;
+  font-family: "Jost", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border-radius: 8px;
+  width: 20%;
+  height: 45px;
+}
+
+.primary-button:hover {
+  background: #faffff;
+  color: #424244;
+}
+
+.primary-input {
+  padding: 8px;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+  border-radius: 8px;
+  width: 80%;
+  box-shadow: 2px 2px #f5f5f5;
+  border: 2px solid #f5f5f5;
+  margin-bottom: 10px;
+  height: 45px;
+}
+
+.primary-input:focus {
+  border: 2px solid #e7e5e5;
+  outline: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.error-color {
+  color: red;
+}
